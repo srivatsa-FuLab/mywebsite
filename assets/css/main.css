@@ -18,6 +18,16 @@
 		vertical-align: baseline;
 	}
 
+	.customHr {
+    width: 95%
+    font-size: 1px;
+    color: rgba(0, 0, 0, 100);
+    line-height: 50px;
+
+    background-color: none;
+    margin-top: -6px;
+    margin-bottom: 10px;
+}
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -93,7 +103,6 @@
 		a:hover {
 			border-color: transparent;
 		}
-
 
 /* Icon */
 
@@ -530,8 +539,9 @@
 				position: relative;
 				display: inline-block;
 				text-align: center;
-				top: -7em;
-				right: -25em;
+				top: -5em;
+				/*right: -25em;*/
+				left:2em;
 				width: 4em;
 			}
 			
@@ -601,6 +611,7 @@
 			margin: 0.75em 0 0.25em 0;
 			opacity: 0.75;
 		}
+		
 
 		#header nav {
 			margin: 1.5em 0 0 0;
@@ -742,7 +753,9 @@
 					}
 
 				#header nav a span {
-					display: none;
+					display: inline-block;
+					position: relative;
+					top: -2em;
 				}
 				
 		
